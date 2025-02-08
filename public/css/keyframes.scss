@@ -1,0 +1,163 @@
+/*Animations:
+Small things*/
+@keyframes wiggle {
+	0%, 100%, 50% {
+		transform: rotateZ(0deg)
+	}
+	25% {
+		transform: rotateZ(2.5deg)
+	}
+	75% {
+		transform: rotateZ(-2.5deg)
+	}
+
+}
+@keyframes flip {
+	0%,80% {
+	  transform: rotateX(360deg);
+	}
+}
+@keyframes jump {
+	0%,100% {
+	  transform: translateX(0);
+	}
+	50% {
+	  transform: translateX(10px);
+	}
+}
+
+
+/*Transitions:*/
+@keyframes transitionInRight {
+	0% {
+		transform: translateX(110vw);
+	}
+
+	80% {
+		transform: translateX(-15px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+@keyframes transitionOutRight {
+	0% {
+		transform: translateX(0);
+	}
+
+	20% {
+		transform: translateX(-15px);
+	}
+
+	100% {
+		transform: translateX(110vw);
+	}
+}
+
+@keyframes transitionInLeft {
+	0% {
+		transform: translateX(-110vw);
+	}
+
+	80% {
+		transform: translateX(15px);
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+}
+@keyframes transitionOutLeft {
+	0% {
+		transform: translateX(0);
+	}
+
+	20% {
+		transform: translateX(15px);
+	}
+
+	100% {
+		transform: translateX(-110vw);
+	}
+}
+
+@keyframes transitionOutTop {
+	0% {
+		transform: translateY(0);
+	}
+
+	20% {
+		transform: translateY(15px);
+	}
+
+	100% {
+		transform: translateY(-110vh);
+	}
+}
+@keyframes transitionInTop {
+	0% {
+		transform: translateY(-110vh);
+	}
+
+	80% {
+		transform: translateY(15px);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes transitionInBottom {
+	0% {
+		transform: translateY(110vh);
+	}
+
+	80% {
+		transform: translateY(-15px);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
+}
+@keyframes transitionOutBottom {
+	0% {
+		transform: translateY(0);
+	}
+
+	20% {
+		transform: translateY(-15px);
+	}
+
+	100% {
+		transform: translateY(110vh);
+	}
+}
+
+
+
+
+@keyframes transitionLoadingOut {
+	0% {
+		transform: translate(-50%, 0);
+	}
+	20% {
+		transform: translate(-50%, 0);
+	}
+	100% {
+		transform: translate(-50%, -110vh);
+	}
+}
+
+@keyframes transitionLoadingIn {
+	0% {
+		transform: translate(-50%, 110vh);
+	}
+	80% {
+		transform: translate(-50%, 0);
+	}
+	100% {
+		transform: translate(-50%, 0);
+	}
+}
