@@ -1,5 +1,5 @@
 /img/projects/compressed/image27.png
-<img src="/img/projects/discordBotSchool.png" alt="school discord bot" width = 40% height = auto> 
+<img src="img/projects/discordBotSchool.png" alt="school discord bot" width = 40% height = auto> 
 <div class="smaller-title">Discord Bot - School events</div>
 
 I made a discord bot that scrapes my school's website (API is only for admins)

@@ -1,5 +1,5 @@
 /img/projects/compressed/image26.gif
-<img src="/img/projects/movementFPS.png" alt="Movement FPS" width = 40% height = auto> 
+<img src="img/projects/movementFPS.png" alt="Movement FPS" width = 40% height = auto> 
 <div class="smaller-title">Movement FPS</div>
 By far the most polished game I have made: a first person shooter that is very focused on movement and countering other classes/weapons
 

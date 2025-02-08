@@ -1,5 +1,5 @@
 /img/projects/compressed/image28.png
-<img src="/img/projects/discordBotServerManager.png" alt="Discord bot" width = 40% height = auto> 
+<img src="img/projects/discordBotServerManager.png" alt="Discord bot" width = 40% height = auto> 
 <div class="smaller-title">Server managing discord bot</div>
 
 I use this bot in just about every server based project if I want to update it while at school - my school has VNC servers blocked so I can't remote into my raspberry pi - hence this

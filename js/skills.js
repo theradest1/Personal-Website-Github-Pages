@@ -1,5 +1,5 @@
 var openSkillID = "none";
-var baseDir = "/";
+var baseDir = "";
 
 function toggleSkill(ID, displayType="block") {
 	if(openSkillID != ID){

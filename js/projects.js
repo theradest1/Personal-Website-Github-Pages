@@ -1,5 +1,5 @@
 var preFiles = "";//../public";
-var baseDir = "/";///views/";
+var baseDir = "";///views/";
 var distanceToID = 43;//47;
 //console.log(window.location.href);
 
@@ -101,7 +101,7 @@ function getNewProjectID(oldID = -1) {
 }
 
 async function unpackProjectFile(ID) {
-	let file = await fetch(preFiles + "/files/project" + ID + ".txt");
+	let file = await fetch(preFiles + "files/project" + ID + ".txt");
 	let text = await file.text();
 	let lines = text.split("\n");
 	
