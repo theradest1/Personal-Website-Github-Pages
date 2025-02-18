@@ -73,6 +73,6 @@ function slideOut(newHref) {
 	
 	//set new url
 	setTimeout(() => {
-		window.location.pathname = newHref;
+		window.location.href = newHref;
 	}, 650);
 }
