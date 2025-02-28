@@ -8,40 +8,14 @@
 	<title>Project Demos</title>
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/keyframes.css">
+	<link rel="stylesheet" href="css/project-demos.css">
 	<link rel="icon" href="img/favicon.ico">
 
 	<script src="js/transitions.js" defer></script>
-	<script src="js/projects.js" defer></script>
+	<script src="js/project-demos.js"></script>
 </head>
 <body>
 	<div id="loading">Loading...</div>
-	<nav class="navbar">
-		<div transition-component style="display: none;" id="navbar-left">
-			<ul class="project-demo-list">
-				<li>
-					<a href="javascript:void(0);" class="icon" onclick="slideOut('./')"><- Project Demos</a>
-				</li>
-				<li>
-					<a href="javascript:void(0);" class="icon" onclick="slideOut('./python-projects/Liquid-Sim/build/web/index.html')">Fluid Simulation</a>
-				</li>
-				<!--
-				<li>
-					<a href="javascript:void(0);" class="icon" onclick="slideOut('./')">Circle Physics Engine</a>
-				</li>
-				<li>
-					<a href="javascript:void(0);" class="icon" onclick="slideOut('./')">Neural Network</a>
-				</li>
-				<li>
-					<a href="javascript:void(0);" class="icon" onclick="slideOut('./')">Neural Network</a>
-				</li>
-				<li>
-					<a href="javascript:void(0);" class="icon" onclick="slideOut('./')">Gravity Simulation</a>
-				</li>
-				-->
-			</ul>
-		</div>
-	</nav>
-
-	<script src="js/project-demos.js"></script>
+	<iframe demo src="python-projects\Liquid-Sim\build\web\index.html"></iframe>
 </body>
 </html>
