@@ -20,7 +20,7 @@ gray = (150, 150, 150)
 green = (0, 255, 0)
 
 #all data gotten from NASA
-gravityConstant = 6.673 * 10**-11 #should be 6.67 * 10**-11 but it doesnt apply enough gravity ):
+gravityConstant = 6.673 * 10**-11
 
 xoffset = 0
 yoffset = 0
@@ -31,7 +31,7 @@ targetYoffset = 0
 zoomSpeed = 1.4
 timeScale = 250000 #dont go too high with this, it becomes unstable (the lower it is, the more physically correct it is)
 planetScale = 1
-orbitTraceLength = 0 #0 orbit length for infinite (it does lag if too much)
+orbitTraceLength = 100 #0 orbit length for infinite (it does lag if too much)
 timePerOrbitSubdivide = .1 #the more frames per, the more performance (in seconds)
 targetFPS = 15
 drawDistances = False
