@@ -118,6 +118,18 @@ solar_system = [
 		"color": [54, 104, 150],
 		"relativeTo": "Sun",
 		"light": 0
+	},
+	{
+		"name": "Pluto",
+		"mass": 0.0130e24,
+		"radius": 1188,
+		"initialXPos": 0,
+		"initialYPos": 5906.4e9,
+		"initialXVel": 4.7e3,
+		"initialYVel": 0,
+		"color": [54, 104, 150],
+		"relativeTo": "Sun",
+		"light": 0
 	}
 ]
 
